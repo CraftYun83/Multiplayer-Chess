@@ -1,0 +1,35 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+.piece {
+    height: 10vh;
+    width: 10vh;
+}
+
+.tile {
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    border-color: yellow;
+    box-sizing: border-box;
+}
+
+#board {
+    height: 80vh;
+    width: 80vh;
+    border-style: solid;
+    border-color: grey;
+    position: absolute;
+    top: 9.75vh;
+    left: 9.75vh;
+}
+
+.white {
+    background-color: #eeeed5;
+}
+
+.green {
+    background-color: #7c945d;
+}
